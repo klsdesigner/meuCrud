@@ -31,7 +31,8 @@ class Read extends Conn {
             parse_str($ParseString, $this->Places);
         }                
         // Prepara a select
-        $this->Select = "SELECT * FROM {$Tabela} {$Termos}";        
+        $this->Select = "SELECT * FROM {$Tabela} {$Termos}";   
+            
         //Executa a query
         $this->Execute();        
     }

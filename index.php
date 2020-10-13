@@ -1,14 +1,15 @@
 <?php
-include 'includes/header.php';
+require('_app/Config.inc.php');
+include 'inc/header.php';
 
-$url = (isset($_GET['url'])) ? $_GET['url'] : "includes/lista.php";
+$url = (isset($_GET['url'])) ? $_GET['url'] : 'inc/lista.php';
 $url = array_filter(explode('/', $url));
-$file = 'includes/' . $url[0] . '.php';
+$file = 'inc/' . $url[0] . '.php';
 
 if (is_file($file)) {
     include $file;
 }else{
-    include "includes/lista.php";
+    include 'inc/lista.php';
 }
 
-include 'includes/footer.php';
+include 'inc/footer.php';
