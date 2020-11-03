@@ -3,7 +3,7 @@ Crud simples completo de uma agenda de nomes, desenvolvido em php puro exclusivo
 
 ## Configuração para o banco de dados
 
-Na pasta _app em config.php informe os seguintes dados:
+Na pasta _app em config.inc.php informe os seguintes dados:
 ~~~
 define('HOST', 'localhost');
 define('USER', 'root'); 
