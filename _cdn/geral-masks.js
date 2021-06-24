@@ -8,6 +8,14 @@ jQuery(function ($) {
     $("#telefone").mask("99 9999 9999");
     $("#conf_celular").mask("(99) 9 9999-9999");
     $("#celular").mask("99 9 9999 9999");
+    // $("#fone").mask("99 #9999-9999", {
+    //     translation: {
+    //         '#': {
+    //             pattern: /\d/, recursive: true
+    //         }
+    //     }
+    // });   
+    
     //$("#dep_data").mask("99/99/9999 99:99:99"); 
     //$("#campanha_data_inicio").mask("99/99/9999 99:99:99");
     //$("#campanha_data_fim").mask("99/99/9999 99:99:99");
